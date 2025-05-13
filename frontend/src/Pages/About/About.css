@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Puppies+Play&display=swap');
+
+.about{
+    width: 90%;
+    margin: auto;
+}
+
+.about .title{
+    font-size: 55px;
+    color: rgb(61, 48, 61);
+}
+
+.about-title-image{
+    margin: 15px;
+}
+
+.tag-line{
+    font-family: "Puppies Play", serif;
+    font-size: 100px;
+    color: fuchsia;
+    word-spacing: 11px;
+    margin: 22px 0;
+    animation: FadeIn 1s;
+}
+
+.about p{
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:35px;
+    margin: 5px 0;
+}
+
+.section img{
+    width: 250px;
+    border-radius: 25px;
+}
+
+.address-container{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 55px;
+}
+
+.address{
+    display:flex;
+    align-items: center;
+    gap: 25px;
+    max-width: 35%;
+}
+
+.address img{
+    height: 15vh;
+}
+
+
+

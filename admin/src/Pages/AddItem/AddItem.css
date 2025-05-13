@@ -1,0 +1,136 @@
+.add-item{
+    padding: 20px;
+    animation: FadeIn 0.75s;
+}
+
+.add-item form{
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: 0.45fr 1fr 0.55fr;
+    gap: 50px;
+}
+
+.input-field-title{
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 410;
+}
+
+.image-selector{
+    display: inline-block;
+    width: 95%;
+    aspect-ratio: 1 / 1;
+    border: 2px dashed rgb(125, 125, 125);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.file-input{
+    opacity: 0;
+    max-width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+}
+
+.image-icon{
+    font-size: 53px;
+    color: rgb(81, 81, 81);
+}
+
+.image-final{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.add-item form input,
+.add-item form textarea,
+.category-selector{
+    border: 2px solid rgb(125, 125, 125);
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.add-item form textarea{
+    resize: vertical;
+}
+
+.add-ingredient{
+    font-size: 20px;
+    color:rgb(110, 2, 54);
+    border: 1.75px solid rgb(158, 17, 85);
+    padding: 5px 10px;
+    border-radius: 25px;
+    width: fit-content;
+    background-color: white;
+}
+
+.add-ingredient:hover{
+    background-color: rgb(255, 214, 234);
+}
+
+.ingredient-input{
+    width: 100%;
+    display: flex;
+    gap: 1px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.delete-ingredient{
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    font-size: 33px;
+    color: rgb(102, 99, 99);
+    border: none;
+    background-color: transparent;
+}
+
+#error-exclamation{
+    background-color: rgb(255, 145, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#no-ingredient-error{
+    visibility: hidden;
+    max-width: fit-content;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(176, 173, 173);
+}
+
+.add-item .submit{
+    font-size: 20px;
+    font-weight: 410;
+    color: white;
+    background-color:rgb(170, 7, 124);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    width: 250px;
+    grid-column: span 3;
+}
+

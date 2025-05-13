@@ -1,0 +1,21 @@
+.nothing-in-cart{
+    margin-bottom: 65px;
+}
+
+.nothing-in-cart img{
+    margin-block: 20px;
+}
+
+.nothing-in-cart a{
+    color: deeppink;
+    font-weight: 500;
+}
+
+.bill-total{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 0.75fr;
+    align-items: center;
+}
+
+

@@ -1,0 +1,45 @@
+.header-contents{
+    background-image: url('../../Assets/SiteImages/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    margin: auto;
+    padding: 25px;
+    min-height: 500px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header-contents h1,
+.header-contents h2,
+.header-contents p,
+.header-contents div{
+    width: 50%;
+    margin-bottom: 15px;
+    animation: FadeIn 2s;
+}
+
+.header-contents h1{
+  font-size: 45px;
+}
+
+.header-contents h2{
+    font-size: 31px;
+}
+
+.header-contents p{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(86, 5, 63);
+}
+
+.header-contents button{
+    background-color: white;
+    border: 2px solid rgb(86, 5, 63);
+    color: rgb(86, 5, 63);
+    border-radius: 30%;
+    font-size: 20px;
+    padding: 10px 20px;
+}

@@ -1,0 +1,107 @@
+.navbar{
+    padding:20px 0 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    width:250px;
+}
+
+.navbar-menu{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    gap:53px;
+    font-size: 25px;
+}
+
+.navbar-menu li{
+    cursor: pointer;
+}
+
+.navbar-menu .active{
+    border-bottom: 3px solid deeppink;
+}
+
+.navbar-right{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    gap:30px;
+}
+
+.navbar-search-icon,
+.navbar-cart-icon,
+.navbar-profile-icon{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navbar-cart-icon{
+    position: relative;
+}
+
+.dot{
+    position: absolute;
+    top:-5px;
+    right: -5px;
+    height: 11px;
+    width: 11px;
+    border-radius: 15px;
+    background-color: deeppink;
+}
+
+.navbar-right button{
+    background-color: rgb(255, 175, 189);
+    border: none;
+    padding: 3px 20px 1px 20px;
+    font-size: 22px;
+    border-radius: 25px;
+}
+
+.navbar-right .active-icon{
+    color: rgb(139, 137, 139); 
+}
+
+.navbar-profile{
+    position: relative;
+}
+
+.navbar-profile-dropdown{
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 25px;
+    padding: 15px;
+    position: absolute;
+    right: -20px;
+    top: 45px;
+    z-index: 1;
+    display: none;
+    background-color: white;
+}
+
+.navbar-profile-dropdown .list-item{
+    list-style: none;
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 15px;
+    min-width: max-content;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar-profile-dropdown .list-item:hover{
+    background-color: rgb(255, 175, 189);
+    cursor: pointer;
+}
+
+.navbar-profile:hover .navbar-profile-icon{
+    color: rgb(134, 3, 73);
+}
+
+.navbar-profile:hover .navbar-profile-dropdown{
+    display: block;
+
+}

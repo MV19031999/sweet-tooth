@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Atma", serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.app{
+    width: 93%;
+    margin: auto;
+}
+
+@keyframes FadeIn {
+    0%{ opacity: 0;}
+    50%{ opacity: 0.5; }
+    100%{ opacity: 1; }
+}

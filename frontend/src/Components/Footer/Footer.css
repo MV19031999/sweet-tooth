@@ -1,0 +1,51 @@
+.footer{
+    background-color: rgb(255, 212, 219);
+}
+
+.footer-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 150px 50px 100px;
+}
+
+.footer-content p{
+    font-size: 20px;
+}
+
+.footer-content h1{
+    font-weight: 500;
+}
+
+.footer-content-left{
+    width: 33%;
+}
+
+.footer-content-left p{
+    color: rgb(82, 25, 82)
+}
+
+.footer-content-left .logo{
+    width: 250px;
+}
+
+.footer-content-center p{
+    margin-bottom: 10px;
+}
+
+.footer-content-right .contact-info{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.footer hr{
+    border-color: rgb(184, 184, 184);
+    width: 95%;
+}
+
+.copy-right{
+    padding: 15px;
+    font-size: 20px;
+}

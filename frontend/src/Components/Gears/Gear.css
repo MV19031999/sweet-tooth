@@ -1,0 +1,20 @@
+.gear .two{
+    color: deeppink;
+    animation: Spin infinite 15s linear;
+}
+
+.gear .one{
+    color: rgb(255, 115, 138);
+    position: relative;
+    top: 27.75px;
+    animation: Spin infinite 15s linear;
+}
+
+.gear h2{
+    margin-bottom: 25px;
+}
+
+@keyframes Spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

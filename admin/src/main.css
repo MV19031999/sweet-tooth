@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --pink: rgb(205, 18, 146);
+}
+
+*{
+    font-family: "Atma", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: 450;
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button, a{
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.75;
+}
+
+@keyframes FadeIn {
+    from{ opacity: 0 }
+    to{ opacity: 1 }
+}

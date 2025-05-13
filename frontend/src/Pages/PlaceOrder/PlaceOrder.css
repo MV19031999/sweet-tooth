@@ -1,0 +1,39 @@
+.place-order{
+    margin: auto;
+    padding-bottom: 35px;
+    width: 60%;
+}
+
+.place-order h1{
+    margin-bottom: 20px;
+}
+
+.input-fields{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 10px 0 20px 0;
+}
+
+.input-fields input,
+.input-fields textarea{
+    border: 2px solid rgb(255, 131, 205);
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 23px;
+}
+
+.input-fields textarea{
+    grid-column: span 2;
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+.place-order button{
+    background-color:  rgb(255, 175, 189);
+    border: none;
+    font-size: 23px;
+    color: black;
+    border-radius: 12px;
+    padding: 5px 15px;
+}

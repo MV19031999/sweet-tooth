@@ -1,0 +1,86 @@
+.item-management{
+    padding: 20px;
+    animation: FadeIn 0.75s;
+}
+
+.item-display{
+    margin: 10px 20px;
+}
+
+.item-management table{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.table-heading{
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgb(255, 198, 232);
+    font-weight: 500;
+}
+
+.table-heading td{
+    text-align: center;
+}
+
+.card{
+    text-align: center;
+}
+
+.card:not(.not-avl):hover{
+    background-color: rgb(255, 238, 251);
+}
+
+.card img{
+    width : 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.card td{
+    margin: 5px;
+    padding: 2px;
+    border-bottom: 1px solid rgb(172, 16, 110);
+}
+
+.card td p{
+    margin-bottom: 5px;
+}
+
+.card td button{
+    background: none;
+    border: none;
+    font-size: 25px;
+}
+
+.name-data{
+    width: 25%;
+}
+
+.info-data{
+    width: 35%;
+}
+
+.action-data button{
+    margin: 8px;
+}
+
+.item-availability input[type="checkbox"]{
+    accent-color: deeppink;
+    transform: scale(1.9);
+    margin-right: 15px;
+}
+
+.not-img{
+    filter: grayscale(100%);
+}
+
+.not-avl{
+    background-color: rgb(237, 237, 237);
+}
+
+.no-item-title-cat{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+}

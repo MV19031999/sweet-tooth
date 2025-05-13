@@ -1,0 +1,41 @@
+.side-bar{
+    border-right: 5px double rgb(159, 5, 115);
+    padding: 20px;
+    margin-block: 10px;
+    position: relative;
+}
+
+.side-bar .logo{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.side-bar-icons{
+    font-size: 23px;
+}
+
+.side-bar-item{
+    display:flex;
+    gap: 15px;
+    font-size: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 2px solid var(--pink);
+    color:  var(--pink);
+    border-radius: 20px;
+    font-weight: 470;
+    transition: all 0.5s;
+}
+
+.side-bar-links .active,
+.side-bar-links button:hover{
+    border: none;
+    background-color:  var(--pink);
+    color: white;
+}
+
+.side-bar-links button{
+    background: none;
+    width: 100%;
+}

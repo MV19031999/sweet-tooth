@@ -1,0 +1,22 @@
+.bill{
+    margin: 25px 0;
+    font-size: 22px;
+    border-spacing: 0;
+    min-width: 100%;
+}
+
+.bill .bil-row-colored{
+    background-color: rgb(255, 191, 236);
+}
+
+.bill td{
+    padding: 10px 15px;
+}
+
+.check-out-btn{
+    background-color:  rgb(255, 175, 189);
+    border: none;
+    font-size: 23px;
+    border-radius: 12px;
+    padding: 5px;
+}

@@ -1,0 +1,28 @@
+.privacy-policy{
+    margin-bottom: 35px;
+}
+
+.privacy-policy h1{
+    font-weight: 430;
+    font-size: 35px;
+}
+
+.privacy-policy p{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.privacy-policy ul{
+    margin-left: 25px;
+    font-size: 25px;
+    
+}
+
+.privacy-policy ul li{
+    margin-bottom: 10px;
+    color: rgb(61, 39, 56);
+}
+
+.privacy-policy ul li::marker{
+    color: deeppink;
+}

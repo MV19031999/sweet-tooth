@@ -1,0 +1,23 @@
+.gift{
+    margin: 65px;
+}
+
+.gift h1{
+    font-size: 37px;
+}
+
+.gift .image-conatiner{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 25px;
+}
+
+.custom-order-coupon-logo{
+    height: 100px;
+    transition: transform 0.75s;
+}
+
+.custom-order-coupon-logo:hover{
+    transform: scale(1.05);
+}

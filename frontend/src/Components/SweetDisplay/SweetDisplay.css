@@ -1,0 +1,6 @@
+.sweet-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 35px;
+    margin: 35px auto;
+}

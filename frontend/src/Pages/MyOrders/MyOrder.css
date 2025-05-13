@@ -1,0 +1,23 @@
+.my-orders{
+    width: 90%;
+    margin: auto;
+}
+
+.no-orders img{
+    width: 30%;
+    margin-block: 25px;
+}
+
+.no-orders{
+    margin-bottom: 38px;
+}
+
+.no-orders p{
+    font-size: 27px;
+}
+
+.no-orders a{
+    font-size: 27px;
+    color: deeppink;
+    font-weight: 450;
+}

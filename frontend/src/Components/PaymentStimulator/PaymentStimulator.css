@@ -1,0 +1,45 @@
+.popup{
+    position:fixed;
+    z-index: 1;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.372);
+}
+
+.stimulator{
+    z-index: 2;
+    background-color: white;
+    padding: 35px;
+    border-radius: 25px;
+    animation: FadeIn 0.35s;
+}
+
+.stimulator p{
+    font-size: 23px;
+}
+
+.button-display{
+    display: flex;
+    margin: 20px ;
+    justify-content: space-around;
+}
+
+.stimulator button{
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.success{
+    background-color: rgb(149, 255, 156);
+}
+
+.fail{
+    background-color: rgb(255, 132, 132);
+}

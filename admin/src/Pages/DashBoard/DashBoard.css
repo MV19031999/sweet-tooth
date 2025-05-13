@@ -1,0 +1,10 @@
+.dash-board{
+    display: grid;
+    grid-template-columns: 0.35fr 1.55fr;
+    min-height: 100vh;
+}
+
+.dash-board h1{
+    padding-bottom: 11px;
+    border-bottom: 3px dashed rgb(159, 5, 115);
+}

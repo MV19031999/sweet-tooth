@@ -1,0 +1,46 @@
+.order-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 25px;
+    padding: 35px;
+    margin: 25px auto;
+    font-size: 21px;
+}
+
+.order-card img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.info-items ul,
+.order-card table{
+    margin-block: 5px;
+}
+
+.info-items .bill{
+    font-size: 25px;
+}
+
+.line{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.info-address td{
+    padding-right: 15px;
+}
+
+.track{
+    padding: 5px 25px;
+    background-color: deeppink;
+    color: white;
+    font-size: 23px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+}
+

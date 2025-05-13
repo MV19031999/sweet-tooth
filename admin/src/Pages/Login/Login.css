@@ -1,0 +1,52 @@
+.login{
+    background-image: url('../../Assets/loginBanner.jpg');
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-contents{
+    min-width: 30%;
+    background-color: white;
+    padding: 15px 30px 30px 30px;
+    border-radius: 25px;
+}
+
+.login img{
+    width: 55%;
+}
+
+.admin-login-form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+}
+
+.admin-login-form input{
+    border: 2px solid rgb(184, 5, 133);
+    border-radius: 10px;
+    padding: 3px 6px;
+    font-size: 21px;
+}
+
+.admin-login-form button{
+    border: none;
+    background-color: rgb(192, 4, 142);
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 22px;
+    font-weight: 550;
+    color: white;
+}
+
+.eye{
+    position: absolute;
+    right: 8px;
+    bottom: 57px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
