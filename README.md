@@ -1,5 +1,5 @@
 # Sweet-Tooth
-**Sweet-Tooth** is a full-stack web application built using the MERN Stack. It is an online platform for the purpose of ordering sweets and deserts. It boasts a Client as well as an Admin Interface allowing for a smooth and effortless experiance for the User and the Management
+**Sweet-Tooth** is a full-stack web application built using the MERN Stack. It is an online platform for the purpose of ordering sweets and deserts. It boasts a Client as well as an Admin Interface allowing for a smooth and effortless experiance for the User and the Administrantion Management Team
 
 ---
 
